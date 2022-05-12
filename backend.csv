@@ -1,5 +1,6 @@
 name,ring,quadrant,isNew,description
 "Java","adopt","Languages and Frameworks",false,"Java is our main programming langague for backend"
+"Go-Lang","trial","Languages and Frameworks",false,"We use Go-Lang for specified case"
 "Spring Boot","adopt","Languages and Frameworks",false,"Spring Boot is our main framework for backend"
 "Apache Maven","adopt","Tools & Datastore",false,"Apache Maven is our main build tool for backend"
 "Consul","adopt","Tools & Datastore",false,"We use Consul to store application configuration"
