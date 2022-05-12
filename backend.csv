@@ -15,3 +15,7 @@ name,ring,quadrant,isNew,description
 "Elastic Search","adopt","Tools & Datastore",false,"NoSQL database for our backend services"
 "Redis","adopt","Tools & Datastore",false,"In memory datastore for our backend services"
 "GCP Memorystore","adopt","Tools & Datastore",false,"In memory service for Redis and Memcached datastore for our backend services"
+"Redis Enterprise","assess","Tools & Datastore",true,"In memory/cluster datastore for our backend services"
+"Solr","hold","Tools & Datastore",false,"An enterprise-search platform and datastore for our backend services"
+"Kafka","adopt","Tools & Datastore",false,"A distributed event store and stream-processing platform for our backend services"
+"RabbitMQ","hold","Tools & Datastore",false,"An open-source message-broker for our backend services"
