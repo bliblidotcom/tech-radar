@@ -8,3 +8,8 @@ name,ring,quadrant,isNew,description
 "Semantic Version","adopt","Techniques",false,"We use semantic version for backend application versioning" 
 "Docker","adopt","Platforms",false,"We build our backend application as Docker image" 
 "Kubernetes","adopt","Platforms",false,"We use Kubernetes for container orchestration tool" 
+"PostgresSQL","adopt","Datastores",false,"Relational database for our backend services"
+"MongoDB","adopt","Datastores",false,"NoSQL database for our backend services"
+"DynamoDB","adopt","Datastores",false,"NoSQL database for our backend services"
+"ArangoDB","adopt","Datastores",false,"Timeseries database for our backend services"
+"Elastic Search","adopt","Datastores",false,"NoSQL database for our backend services"
