@@ -25,6 +25,7 @@ name,ring,quadrant,isNew,description
 "vue-cli",adopt,"Tools",false,"Vue project runner and builder"
 "babel",adopt,"Tools",false,"JS transpiler"
 "lighthouse",adopt,"Tools",false,"Web benchmarker"
+"Partytown",assess,"Tools",true,"lazy-loaded library to help relocate resource intensive scripts into a web worker"
 "vuex",adopt,"Libraries",false,"State management"
 "JQuery",hold,"Libraries",false,"Old-school coding"
 "vuex",adopt,"Libraries",false,"State management"
