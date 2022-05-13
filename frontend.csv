@@ -35,4 +35,4 @@ name,ring,quadrant,isNew,description
 "podman",assess,"Techniques and Platform",new,"Free Container management"
 "Rancher Desktop",assess,"Techniques and Platform",new,"Docker desktop replacement"
 "NGINX",adopt,"Techniques and Platform",false,"Default UI server"
-"Micro FE",adopt,"Techniques and Platform",false,"Blibli Micro FE implementation"
+"Micro FE",adopt,"ETCblablaal",false,"Blibli Micro FE implementation"
