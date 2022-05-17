@@ -20,7 +20,7 @@
 "ArangoDB","trial","Tools & Datastore","false","Timeseries database for our backend services"
 "Elasticsearch","adopt","Tools & Datastore","false","Search database for our backend services"
 "Redis","adopt","Tools & Datastore","false","In memory datastore for our backend services"
-"Memcached","asses","Tools & Datastore","true","We still assess Memcached as multicore memory database"
+"Memcached","assess","Tools & Datastore","true","We still assess Memcached as multicore memory database"
 "GCP Memory Store","adopt","Tools & Datastore","false","In memory service for Redis and Memcached datastore for our backend services"
 "Redis Enterprise","assess","Tools & Datastore","true","In memory/cluster datastore for our backend services"
 "Solr","hold","Tools & Datastore","false","An enterprise-search platform and datastore for our backend services"
