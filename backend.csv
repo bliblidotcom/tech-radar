@@ -21,6 +21,8 @@
 "MapStruct","assess","Library","false","We still assess this library for object mapper, so we don't need to use Java Reflection anymore"
 "Histryx","hold","Library","false","Histryx is already EOL, please dont use it anymore for new project"
 "Feign","hold","Library","false","Histryx is already EOL, Feign use Histryx, please don't use it anymore for new project"
+"Project Reactor","adopt","Library","false","Project Reactor is main reactive library for Spring Boot"
+"RxJava","hold","Library","false","For new project, please use Project Reactor"
 "Apache Maven","adopt","Tool & Platform","false","Apache Maven is our main build tool for backend"
 "Consul","adopt","Tool & Platform","false","We use Consul to store application configuration"
 "Vault","adopt","Tool & Platform","false","We use Vault to store secret configuration for application"
