@@ -15,6 +15,8 @@ name,ring,quadrant,isNew,description
 "Eslint",adopt,"Languages and Frameworks",false,"Linter"
 "AMP",adopt,"Languages and Frameworks",false,"Web component framework for use in Google browsers"
 "Karma+Mocha",hold,"Languages and Frameworks",false,"Alternative test runner"
+"Nuxt.js",assess,"Languages and Frameworks",false,"Server side rendering with vue"
+"GraphQL",assess,"Languages and Frameworks",false,"Common web query"
 "NPM",adopt,"Tools",false,"Defacto package manager"
 "Yarn",hold,"Tools",false,"Popular package manager"
 "PNPM",assess,"Tools",new,"New kid on the block package manager"
