@@ -54,3 +54,4 @@ name,ring,quadrant,isNew,description
 "GTM",adopt,"Techniques and Platform",false,"De-facto client-side script management"
 "Lazy-load / Lazy-rendering",adopt,"Techniques and Platform",false,"Only load or render inside viewport content"
 "web.dev - Web Core Vitals",adopt,"Techniques and Platform",false,"Measurement standard for web"
+"Sonar 8",adopt,"Techniques and Platform",false,"Static Code Analyzer for test coverage and potential risk"
