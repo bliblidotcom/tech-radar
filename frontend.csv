@@ -38,7 +38,7 @@ name,ring,quadrant,isNew,description
 "axios",hold,"Libraries",false,"AJAX library helper, should be replaced with built-in window.fetch function or use polyfill for it"
 "Blue DLS Vue 2",adopt,"Libraries",false,"Standard Blibli Design Language used across Blibli for Vue 2"
 "Blue DLS Vue 3",assess,"Libraries",new,"Standard Blibli Design Language used across Blibli for Vue 3"
-"Blue DLS Library - Single Component approach",assess,"Libraries",false,"DLS library published as individual components. It follow bit.dev paradigm"
+"Blue Pattern Library - Collaborative Components",assess,"Libraries",false,"DLS library published as individual components. It follow bit.dev paradigm"
 "Blue Icon",adopt,"Libraries",false,"Blue standard icons. All icons are provided through this library"
 "vue-i18n",adopt,"Libraries",false,"I18n support for vue. It provides multiple translation function based on our language library"
 "Polyfill.io using polyfill-io-feature-detection",adopt,"Libraries",false,"Dynamic polyfill library to support older browser. We can use this to have polyfill for older browser, rather than transpiling it to older version ES"
