@@ -30,6 +30,7 @@ name,ring,quadrant,isNew,description
 "babel",adopt,"Tools",false,"JS transpiler. It transpile modern version of JS to a targetted one, such as from ES6 to ES5"
 "lighthouse",adopt,"Tools",false,"Web benchmarker. The output is performance reports along with SEO, accessibility, best practices and PWA scores. It's official web benchmarker from Google."
 "lerna",hold,"Tools",false,"Multi repo package manager, hold because of no update. Its role is being replace by NPM workspaces"
+"@blibli/integration-test-tools",adopt,"Tools",new,"Run integration test easily with this library. It automate docker run and micro FE' main project pull and run."
 "@blibli/dev-tools",trial,"Tools",new,"Tools to automate packaging and Dockerfile creation. It's being rollout in several projects."
 "node-sass",hold,"Tools",false,"SASS transpiler based on C. It's deprecated now, because no update for a long time. Dart-sass or just sass is the replacement. Using node-sass is also a great hassle, as it needs to compile the binary from source every time we do 'npm install'"
 "dart-sass / sass",adopt,"Tools",false,"SASS transpiler based on dart. It's now the commonly used sass transpiler. The binary runs directly without compiling from source"
