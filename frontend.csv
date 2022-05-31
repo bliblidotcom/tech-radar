@@ -24,7 +24,7 @@ name,ring,quadrant,isNew,description
 "NPM",adopt,"Tools",false,"Defacto package manager. We will use it as default package manager for Frontend projects."
 "PNPM",assess,"Tools",new,"New kid on the block package manager. The package download and installation process are done in parallel, increasing installation speed."
 "Playwright < 1.16.x",adopt,"Tools",false,"Browser runner for automated testing. We use this to accomodate integration testing."
-"Playwright < 1.22.x",assess,"Tools",new,"Browser runner for automated testing. We use this to accomodate integration testing."
+"Playwright 1.22.x",assess,"Tools",new,"Browser runner for automated testing. We use this to accomodate integration testing."
 "Webpack",adopt,"Tools",false,"Popular packager. A simple configurable packager that's still used widely. In the future we may all move to Rollup."
 "Rollup",adopt,"Tools",new,"Faster packager. Vite.js is using Rollup, thus the direction for Vue programmer will be using Rollup. Based on our experience, Rollup is a lot faster than Webpack"
 "Parcel",hold,"Tools",new,"Hold because of inconsistent result (can't be used in webpack). We now use Rollup."
