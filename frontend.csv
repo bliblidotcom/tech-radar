@@ -69,3 +69,4 @@ name,ring,quadrant,isNew,description
 "FE Integration test",adopt,"Techniques and Platforms",new,"Provides snapshots and integrity checking for our UI. It shows before and after for every changes to review properly"
 "Hybrid Rendering",assess,"Techniques and Platforms",new,"Using Nuxt 3, we can Hydrate components for faster rendering client"
 "Multi Layered NGINX Gateway (Squad Gateway)",trial,"Techniques and Platforms",new,"Instead of using only one routing in Blibli Gateway, we want to have detailed routing moved to each squad. So, there will be less risk and effort on maintaining Blibli Gateway"
+"Modern JS Output for Modern browser (ES6+)",assess,"Techniques and Platforms",new,"Output adaptive output when building codes. It will most probably use ES6+ standards when possible and falback to ES2005 when not possible."
