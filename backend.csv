@@ -13,7 +13,7 @@
 "Mongobee","hold","Library","false","Mongobee is data migratin for MongoDB, we are not using this anymore, please use Blibli Data Migration"
 "Flyway","hold","Library","false","Flyway is data migratin for Relational DB, we are not using this anymore, please use Blibli Data Migration"
 "Logback","adopt","Library","false","Logback is our main logging library"
-"Resilience4J","adopt","Library","false","Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix"
+"Resilience4J","assess","Library","false","Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix"
 "Log4J","hold","Library","false","We are not using log4j for logging, please use logback"
 "Lombok","adopt","Library","false","Lombok is library for generate data class for Java"
 "Spring Cloud Gateway","adopt","Library","true","Spring Cloud Gateway is main library for create API Gateway in Spring Boot"
