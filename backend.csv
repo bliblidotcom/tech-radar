@@ -40,7 +40,7 @@
 "Apache Tomcat","hold","Tool & Platform","false","For new project please use Netty"
 "PostgresSQL","adopt","Datastore","false","Relational database for our backend services"
 "MongoDB","adopt","Datastore","false","Document database for our backend services"
-"AWS DynamoDB","adopt","Datastore","false","NoSQL database for our backend services"
+"AWS DynamoDB","adopt","Datastore","false","NoSQL database for our backend services, if for whatever reason you need to deploy stuff in AWS"
 "Elasticsearch","adopt","Datastore","false","Search database for our backend services"
 "Redis","adopt","Datastore","false","In memory datastore for our backend services"
 "Memcached","adopt","Datastore","true","Multicore memory database"
