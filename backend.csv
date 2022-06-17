@@ -25,7 +25,7 @@
 "Gson","hold","Library","false","We are not using Gson anymore, please use Jackson for JSON manipulation"
 "Dozer","hold","Library","false","The project is currently not active and will more than likely be deprecated in the future. If you are looking to use Dozer on a greenfield project, we would discourage that. If you have been using Dozer for a while, we would suggest you start to think about migrating onto another library"
 "Orika","hold","Library","false","Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another. It can be very useful when developing multi-layered applications."
-"Guava","hold","Library","false","We are not using Guava for cache anymore, please use Redis or Memcached"
+"Guava/Caffeine/Ignite","hold","Library","false","We are not using in-process/in-pod/in-vm cache anymore such as Guava/Caffeine/Ignite, please use distributed cache such as Redis or Memcached"
 "Histryx","hold","Library","false","Histryx is already EOL, please dont use it anymore for new project"
 "Feign","hold","Library","false","Histryx is already EOL, Feign use Histryx, please don't use it anymore for new project"
 "RxJava","hold","Library","false","For new project, please use Project Reactor"
