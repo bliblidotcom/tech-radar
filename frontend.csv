@@ -17,7 +17,7 @@ name,ring,quadrant,isNew,description
 "Jest > 28",adopt,"Languages and Frameworks",false,"Simple test runner. It's proven to be fast to code and run. Moreover, it's very easy to scale"
 "Vitest > 0.23",adopt,"Languages and Frameworks",true,"Official test runner for Vite.js. It's based on Jest, easy to adopt"
 "Eslint",adopt,"Languages and Frameworks",false,"Linter. It's used to provide quick style correction and applying good coding patterns."
-"AMP",ohld,"Languages and Frameworks",false,"Web component framework for use in Google browsers. Heard news it will be drop in near future"
+"AMP",hold,"Languages and Frameworks",false,"Web component framework for use in Google browsers. Heard news it will be drop in near future"
 "Karma+Mocha",hold,"Languages and Frameworks",false,"Previous test runner we used in webpack 2. Now it's left behind because it was hard to setup the test and configuring it."
 "Nuxt.js 3",assess,"Languages and Frameworks",false,"Server side rendering with vue. This may be the future of Vue. We would love to have SSR to provide faster LCP"
 "GraphQL",assess,"Languages and Frameworks",false,"Web query standard to be used for API end points. It can describe data join and filtered fields."
