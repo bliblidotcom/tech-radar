@@ -84,3 +84,4 @@ name,ring,quadrant,isNew,description
 "Hybrid Rendering",assess,"Techniques and Platforms",true,"Using Nuxt 3, we can Hydrate components for faster rendering client"
 "Multi Layered NGINX Gateway (Squad Gateway)",adopt,"Techniques and Platforms",true,"Instead of using only one routing in Blibli Gateway, we want to have detailed routing moved to each squad. So, there will be less risk and effort on maintaining Blibli Gateway"
 "Modern JS Output for Modern browser (ES6+)",adopt,"Techniques and Platforms",true,"Output adaptive output when building codes. It will most probably use ES6+ standards when possible and falback to ES2005 when not possible."
+"PWA",adopt,"Techniques and Platforms",true,"Modern web browser standard"
