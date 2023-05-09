@@ -1,7 +1,7 @@
 ## Blibli.com Tech Radar 
 
-- Backend : [https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Fbackend.csv](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Fbackend.csv)
-- Frontend : [https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Ffrontend.csv](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Ffrontend.csv)
+- Backend : [https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Fbackend.csv](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Fbackend.csv)
+- Frontend : [https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Ffrontend.csv](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fbliblidotcom%2Ftech-radar%2Fmain%2Ffrontend.csv)
 
 ## What is the Tech Radar?
 

@@ -1,0 +1,611 @@
+[
+  {
+    "name": "JavaScript",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "JavaScript is our main programming language for FrontEnd"
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "TypeScript helps to abstract our development"
+  },
+  {
+    "name": "CSS 3",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Defacto styling standard"
+  },
+  {
+    "name": "SCSS",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "CSS preprocessor. Simplify CSS coding"
+  },
+  {
+    "name": "JSON",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Standard data structure"
+  },
+  {
+    "name": "HTML 5",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Defacto web styling standard"
+  },
+  {
+    "name": "ES6+",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Modern JS standard"
+  },
+  {
+    "name": "Vue 2",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Modern UI Framework, EOL around 1 year. It's on the path to deprecation."
+  },
+  {
+    "name": "Open API Spec (OAS) Standard",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "API spec writing standard. Can be used as input to generate codes automatically"
+  },
+  {
+    "name": "Vue 3.2.47",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Next version of vue js. Blue 3.0 (DLS) has been published with Vue 3 support"
+  },
+  {
+    "name": "Nodejs &gt; 14.18",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "JS Engine, defacto"
+  },
+  {
+    "name": "Nodejs &gt; 18",
+    "ring": "trial",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "JS Engine, latest LTS"
+  },
+  {
+    "name": "Nodejs $lt 14.18",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Older JS Engine. We should replace it with latest LTS version (14 or 16)."
+  },
+  {
+    "name": "React",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Popular JS library. We hold this library because it was hard to maintain in previous projects. Hard also to find someone capable of coding React properly"
+  },
+  {
+    "name": "Angular",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Old JS framework. This is the first Angular. We used in old blibli.com UI. Hard to improve performance and very old in technology features"
+  },
+  {
+    "name": "Jest &gt; 28",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Simple test runner. It's proven to be fast to code and run. Moreover, it's very easy to scale"
+  },
+  {
+    "name": "Vitest &gt; 0.23",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Official test runner for Vite.js. It's based on Jest, easy to adopt"
+  },
+  {
+    "name": "Eslint",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Linter. It's used to provide quick style correction and applying good coding patterns."
+  },
+  {
+    "name": "AMP",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Web component framework for use in Google browsers. Heard news it will be drop in near future"
+  },
+  {
+    "name": "Karma+Mocha",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Previous test runner we used in webpack 2. Now it's left behind because it was hard to setup the test and configuring it."
+  },
+  {
+    "name": "Nuxt.js 3",
+    "ring": "assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Server side rendering with vue. This may be the future of Vue. We would love to have SSR to provide faster LCP"
+  },
+  {
+    "name": "GraphQL",
+    "ring": "assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Web query standard to be used for API end points. It can describe data join and filtered fields."
+  },
+  {
+    "name": "Service worker",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Web worker used to manage resources and background process for a website that can make it behave like a standalone application."
+  },
+  {
+    "name": "Partytown",
+    "ring": "assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Library to speed up site by offloading third-party scripts to a web worker. In hope of reducing main thread workload, to increase TBT / TTI"
+  },
+  {
+    "name": "pinia &gte; 2.0.32",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Agnostic and modular state management"
+  },
+  {
+    "name": "vuex",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "State management for Vue. It's used to share states/variables across components"
+  },
+  {
+    "name": "JQuery",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Old-school coding. This library is not used anymore. All functionalities in JQuery are available in ES6+ and native browser APIs"
+  },
+  {
+    "name": "axios",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "AJAX library helper, should be replaced with built-in window.fetch function or use polyfill for it"
+  },
+  {
+    "name": "axios-mock-adapter",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Mock adapter for axios. Hold since axios is being hold"
+  },
+  {
+    "name": "miragejs &gte; 0.1.47",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "API mocker for development and testing support"
+  },
+  {
+    "name": "window.fetch",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Native XMLHttpRequest api support that behaves similar to axios or other common XMLHttpRequest libraries"
+  },
+  {
+    "name": "@vue/test-utils &gte; 2.3.2",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Test utilities for testing Vue components"
+  },
+  {
+    "name": "Blue DLS Vue 2",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Standard Blibli Design Language used across Blibli for Vue 2"
+  },
+  {
+    "name": "Blue DLS Vue 3",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Standard Blibli Design Language used across Blibli for Vue 3"
+  },
+  {
+    "name": "Blue Pattern Library - Collaborative Components",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "DLS library published as individual components. It follow bit.dev paradigm"
+  },
+  {
+    "name": "Blue Icon &gte; 0.29.0",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Blue standard icons. All icons are provided through this library"
+  },
+  {
+    "name": "vue-i18n &gte; 9.2.2",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "I18n support for vue. It provides multiple translation function based on our language library"
+  },
+  {
+    "name": "vue-router &gte; 4.1.6",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Router for vue"
+  },
+  {
+    "name": "Polyfill.io using polyfill-io-feature-detection",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Dynamic polyfill library to support older browser. We can use this to have polyfill for older browser, rather than transpiling it to older version ES. It's hold because browser nowadays support ES6"
+  },
+  {
+    "name": "date-format-lite",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Lightweight date formatter and manipulator. It's only 3 KB and able to format dates properly."
+  },
+  {
+    "name": "dayjs",
+    "ring": "assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Day.js is a minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for modern browsers with a largely Moment.js-compatible API."
+  },
+  {
+    "name": "moment.js",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Date formatter and manipulator, too heavy to use. Use date-format-lite instead"
+  },
+  {
+    "name": "NPM &gt; 6",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Defacto package manager. We will use it as default package manager for Frontend projects."
+  },
+  {
+    "name": "PNPM",
+    "ring": "assess",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "New kid on the block package manager. The package download and installation process are done in parallel, increasing installation speed."
+  },
+  {
+    "name": "bun",
+    "ring": "assess",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Fast nodejs runner"
+  },
+  {
+    "name": "Playwright &lt; 1.17.1",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Browser runner for automated testing. We use this to accomodate integration testing."
+  },
+  {
+    "name": "Playwright &gte; 1.17.1",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Browser runner for automated testing. More recent features"
+  },
+  {
+    "name": "Webpack",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Popular packager. A simple configurable packager that's still used widely. In the future we may all move to Rollup."
+  },
+  {
+    "name": "Rollup",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Faster packager. Vite.js is using Rollup, thus the direction for Vue programmer will be using Rollup. Based on our experience, Rollup is a lot faster than Webpack"
+  },
+  {
+    "name": "Parcel",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Hold because of inconsistent result (can't be used in webpack). We now use Rollup."
+  },
+  {
+    "name": "Vite.js &gte; 4.2.2",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "New Vue packager. It's replacing vue-cli. Built on top of Rollup."
+  },
+  {
+    "name": "vue-cli",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Vue project runner and builder for Vue 2. Currently it's being replaced by Vite.js"
+  },
+  {
+    "name": "babel",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "JS transpiler. It transpile modern version of JS to a targetted one, such as from ES6 to ES5. We now have larger modern support"
+  },
+  {
+    "name": "lighthouse &gte; 10",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Web benchmarker. The output is performance reports along with SEO, accessibility, best practices and PWA scores. It's official web benchmarker from Google."
+  },
+  {
+    "name": "lerna",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Multi repo package manager, hold because of no update. Its role is being replace by NPM workspaces"
+  },
+  {
+    "name": "NPM workspaces",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "NPM official multi repo package manager. We can use it to build multiple project at once. It may be useful for tightly dependent libraries but managed in different projects"
+  },
+  {
+    "name": "@blibli/integration-test-tools &gte; 1.9.1",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Run integration test easily with this library. It automate docker run and micro FE' main project pull and run."
+  },
+  {
+    "name": "@blibli/dev-tools &gte; 0.4.9",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Tools to automate packaging and Dockerfile creation. It's being rollout in several projects."
+  },
+  {
+    "name": "@blibli/performance-audit",
+    "ring": "assess",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Performance auditing and budgeting library for local and jenkins environment"
+  },
+  {
+    "name": "node-sass",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "SASS transpiler based on C. It's deprecated now, because no update for a long time. Dart-sass or just sass is the replacement. Using node-sass is also a great hassle, as it needs to compile the binary from source every time we do 'npm install'"
+  },
+  {
+    "name": "dart-sass / sass &gte; 1.62.0",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "SASS transpiler based on dart. It's now the commonly used sass transpiler. The binary runs directly without compiling from source"
+  },
+  {
+    "name": "Yarn",
+    "ring": "hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Popular package manager. We are not recommending using it because it has deviated quite much from the official package manager (NPM)"
+  },
+  {
+    "name": "GCS",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Google Cloud Storage for static contents. Assets are stored here. We use GCS to support faster delivery and seamless ui version upgrade"
+  },
+  {
+    "name": "docker / docker-cli",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Container management standard. This is the most widely used container management. We use atleast docker-cli to code our build script"
+  },
+  {
+    "name": "NGINX",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Default UI server. We use a lightweight http-server to serve our static content. We do some routing, rate-limiting and other simple logic here also using openresty and sub_filter plugin"
+  },
+  {
+    "name": "Nodejs Modules",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "In order to reduce code duplicaton and faster load. https://docs.npmjs.com/creating-node-js-modules"
+  },
+  {
+    "name": "GTM",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "De-facto client-side script management. It's used across Blibli website to manage thousands of marketing and tech scripts"
+  },
+  {
+    "name": "Sonar 8",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Static Code Analyzer for test coverage and potential risk."
+  },
+  {
+    "name": "podman",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Free Container management. This is popular alternative of docker in Mac. Having some problem with pushing large image library to dockerhub, may get hold"
+  },
+  {
+    "name": "Rancher Desktop",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Docker desktop replacement. Still ongoing to test it all through. The best thing is that it supports docker-cli."
+  },
+  {
+    "name": "Docker desktop",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Container management UI and dashboard. This is the UI of docker."
+  },
+  {
+    "name": "Vue-SSR",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Using server side rendering to render vue pages"
+  },
+  {
+    "name": "Micro FE",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Blibli Micro FE implementation. It shares Vue libraries and states across collabs while maintaining isolation and independent deployment"
+  },
+  {
+    "name": "Window event messaging",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Use window custom event to communicate across components from different repo or inside iframe. The best example is address-module library"
+  },
+  {
+    "name": "Iframe to load segment of existing web",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "We wanted to load segments of a page using iframe. Should be achieved using nodejs modules"
+  },
+  {
+    "name": "Vue composition API",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Functional programming for Vue. It will be more verbose and reusable to have composition api compared to options api"
+  },
+  {
+    "name": "Lazy-load / Lazy-rendering",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Only load or render inside viewport content. Do not load everything at once. Use Observer pattern to detect location in viewport"
+  },
+  {
+    "name": "web.dev - Web Core Vitals",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Measurement standard for web. Go to web.dev for more info"
+  },
+  {
+    "name": "Web Canary Release",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Safe release to only internal user. We route request to 'newest' version only for internal"
+  },
+  {
+    "name": "Backend Service Canary Release",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Release service as canary (internal user) first"
+  },
+  {
+    "name": "Global Variable in Micro FE",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Avoid using shared global variable, hard to maintain. We can not really sure if the global variable is not used in other collab."
+  },
+  {
+    "name": "FE Unit test",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Unit test in Frontend can not really shows changes and backward compatibility (integrity) of our UI. It should be replaced by UI Integration Test"
+  },
+  {
+    "name": "FE Integration test",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Provides snapshots and integrity checking for our UI. It shows before and after for every changes to review properly"
+  },
+  {
+    "name": "Hybrid Rendering",
+    "ring": "assess",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Using Nuxt 3, we can Hydrate components for faster rendering client"
+  },
+  {
+    "name": "Multi Layered NGINX Gateway (Squad Gateway)",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Instead of using only one routing in Blibli Gateway, we want to have detailed routing moved to each squad. So, there will be less risk and effort on maintaining Blibli Gateway"
+  },
+  {
+    "name": "Modern JS Output for Modern browser (ES6+)",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Output adaptive output when building codes. It will most probably use ES6+ standards when possible and falback to ES2005 when not possible."
+  },
+  {
+    "name": "PWA",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Modern web browser standard"
+  }
+]
