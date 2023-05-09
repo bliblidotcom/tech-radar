@@ -1,0 +1,30 @@
+[
+  {
+    "name": "PostgresSQL 1-14",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": false,
+    "description": "Relational database for our backend services"
+  },
+  {
+    "name": "Java 11",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": false,
+    "description": "Java is our main programming language for backend"
+  },
+  {
+    "name": "Blibli Data Migration",
+    "ring": "adopt",
+    "quadrant": "Tools",
+    "isNew": false,
+    "description": "<a href='https://github.com/bliblidotcom/data-migration'>Blibli Data Migration</a> is our main library for create database migration, it support PostgreSQL, MongoDB and Elasticsearch"
+  },
+  {
+    "name": "Memory-based DB for caching",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": false,
+    "description": "Caching Data in memory-based DB for quick access"
+  }
+]
