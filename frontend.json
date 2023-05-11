@@ -319,7 +319,7 @@
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
-    "description": "Browser runner for automated testing. We use this to accomodate integration testing".
+    "description": "Browser runner for automated testing. We use this to accomodate integration testing"
   },
   {
     "name": "Webpack",
