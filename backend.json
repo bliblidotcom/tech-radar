@@ -3,427 +3,427 @@
     "name": "PostgresSQL 1-14",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Relational database for our backend services"
   },
   {
     "name": "PostgresSQL 15",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Relational database for our backend services"
   },
   {
     "name": "MongoDB 1-5",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Document database for our backend services"
   },
   {
     "name": "MongoDB 6",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Document database for our backend services"
   },
   {
     "name": "AWS DynamoDB",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "NoSQL database for our backend services, if for whatever reason you need to deploy stuff in AWS"
   },
   {
     "name": "Elasticsearch 1-8",
     "ring": "trial",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Search database for our backend services"
   },
   {
     "name": "OpenSearch 2",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Search database for our backend services"
   },
   {
     "name": "OpenDistro 1",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Search database for our backend services"
   },
   {
     "name": "Redis",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "In memory datastore for our backend services"
   },
   {
     "name": "Memcached",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "Multicore memory database"
   },
   {
     "name": "Kafka",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "A distributed event store and stream-processing platform for our backend services"
   },
   {
     "name": "GCP Memory Store Redis",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "In memory service for Redis and Memcached datastore for our backend services"
   },
   {
     "name": "GCP Memory Store Memcached",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "In memory service for Redis and Memcached datastore for our backend services"
   },
   {
     "name": "ArangoDB",
     "ring": "trial",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Timeseries database for our backend services"
   },
   {
     "name": "Solr",
     "ring": "trial",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "An enterprise-search platform and datastore for our backend services"
   },
   {
     "name": "Redis Enterprise",
     "ring": "trial",
     "quadrant": "Platforms",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "In memory/cluster datastore for our backend services"
   },
   {
     "name": "RabbitMQ",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "An open-source message-broker for our backend services"
   },
   {
     "name": "Guava/Caffeine/Ignite",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We are not using in-process/in-pod/in-vm cache anymore such as Guava/Caffeine/Ignite, please use distributed cache such as Redis or Memcached"
   },
   {
     "name": "Consul",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We use Consul to store application configuration"
   },
   {
     "name": "Vault",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We use Vault to store secret configuration for application"
   },
   {
     "name": "Docker",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We build our backend application as Docker image"
   },
   {
     "name": "Docker Desktop",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We build our backend application as Docker image"
   },
   {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We use Kubernetes for container orchestration tool"
   },
   {
     "name": "Netty",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Netty is our main web server for new backend"
   },
   {
     "name": "Jenkins",
     "ring": "adopt",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Jenkins is our main automation server for CI/CD"
   },
   {
     "name": "Bamboo",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "For new project, please use Jenkins as automation server"
   },
   {
     "name": "Apache Tomcat",
     "ring": "hold",
     "quadrant": "Platforms",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "For new project please use Netty"
   },
   {
     "name": "Java 11",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Java is our main programming language for backend"
   },
   {
     "name": "Spring Boot 2.x",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Spring Boot is our main framework for backend"
   },
   {
     "name": "Spring Boot 3.x",
     "ring": "assess",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Spring Boot is our main framework for backend"
   },
   {
     "name": "Kotlin",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "A modern programming language that makes developers happier"
   },
   {
     "name": "Java 17",
     "ring": "assess",
     "quadrant": "Languages and Frameworks",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "Java 17 is latest LTS for Java, we still assess this version"
   },
   {
     "name": "GrallVM Java 17",
     "ring": "assess",
     "quadrant": "Languages and Frameworks",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "We still assess Grall VM for Spring Boot Native"
   },
   {
     "name": "Go-Lang",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We use Go-Lang only for specified case, for new project please use Java"
   },
   {
     "name": "Java 8",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Java 8 is already EOL, please use Java 11 for new backend project"
   },
   {
     "name": "Scala",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Learning scala is really hard, we already try it, and we will not continue to use Scala, please use Java"
   },
   {
     "name": "Spring Boot 1.x",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Spring Boot is our main framework for backend"
   },
   {
     "name": "X Framework",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "X-Framework is our old framework, we will not use it anymore, please use Spring Boot"
   },
   {
     "name": "Play Framework",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Because we are not using Scala anymore, so we also will not using Play Framework anymore"
   },
   {
     "name": "Blibli Backend Framework",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Standard library for backend"
   },
   {
     "name": "Logback",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Logback is our main logging library"
   },
   {
     "name": "Lombok",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Lombok is library for generate data class for Java"
   },
   {
     "name": "Spring Cloud Gateway",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": true,
+    "isNew": "TRUE",
     "description": "Spring Cloud Gateway is main library for create API Gateway in Spring Boot"
   },
   {
     "name": "Jackson",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Jackson is our main library for JSON manipulation"
   },
   {
     "name": "Project Reactor",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Project Reactor is main reactive library for Spring Boot"
   },
   {
     "name": "Resilience4J",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix"
   },
   {
     "name": "MapStruct",
     "ring": "assess",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We still assess this library for object mapper, so we don't need to use Java Reflection anymore"
   },
   {
     "name": "Log4J",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We are not using log4j for logging, please use logback"
   },
   {
     "name": "Zuul",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Zuul is API Gateway library, for new project please use Spring Cloud Gateway"
   },
   {
     "name": "Gson",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "We are not using Gson anymore, please use Jackson for JSON manipulation"
   },
   {
     "name": "Dozer",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "The project is currently not active and will more than likely be deprecated in the future. If you are looking to use Dozer on a greenfield project, we would discourage that. If you have been using Dozer for a while, we would suggest you start to think about migrating onto another library"
   },
   {
     "name": "Orika",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another. It can be very useful when developing multi-layered applications."
   },
   {
     "name": "Histryx",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Histryx is already EOL, please dont use it anymore for new project"
   },
   {
     "name": "Feign",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Histryx is already EOL, Feign use Histryx, please don't use it anymore for new project"
   },
   {
     "name": "RxJava 1/2",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "For new project, please use Project Reactor"
   },
   {
     "name": "Blibli Data Migration",
     "ring": "adopt",
     "quadrant": "Tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<a href='https://github.com/bliblidotcom/data-migration'>Blibli Data Migration</a> is our main library for create database migration, it support PostgreSQL, MongoDB and Elasticsearch"
   },
   {
     "name": "Mongobee",
     "ring": "hold",
     "quadrant": "Tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Mongobee is data migratin for MongoDB, we are not using this anymore, please use Blibli Data Migration"
   },
   {
     "name": "Mongock",
     "ring": "hold",
     "quadrant": "Tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Mongock is data migratin for MongoDB, we are not using this anymore, please use Blibli Data Migration"
   },
   {
     "name": "Flyway",
     "ring": "hold",
     "quadrant": "Tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Flyway is data migration for Relational DB, we are not using this anymore, please use Blibli Data Migration"
   },
   {
     "name": "Apache Maven",
     "ring": "adopt",
     "quadrant": "Tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "Apache Maven is our main build tool for backend"
   },
   {
-    "name": "Memory-based DB for caching",
+    "name": "TODO",
     "ring": "adopt",
     "quadrant": "Techniques",
-    "isNew": false,
-    "description": "Caching Data in memory-based DB for quick access"
+    "isNew": "FALSE",
+    "description": "Will be updated soon"
   }
 ]
