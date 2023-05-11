@@ -70,14 +70,14 @@
     "description": "Next version of vue js. Blue 3.0 (DLS) has been published with Vue 3 support"
   },
   {
-    "name": "Nodejs &gt; 14.18",
+    "name": "Nodejs > 14.18",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "JS Engine, defacto"
   },
   {
-    "name": "Nodejs &gt; 18",
+    "name": "Nodejs > 18",
     "ring": "trial",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
@@ -105,14 +105,14 @@
     "description": "Old JS framework. This is the first Angular. We used in old blibli.com UI. Hard to improve performance and very old in technology features"
   },
   {
-    "name": "Jest &gt; 28",
+    "name": "Jest > 28",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Simple test runner. It's proven to be fast to code and run. Moreover, it's very easy to scale"
   },
   {
-    "name": "Vitest &gt; 0.23",
+    "name": "Vitest > 0.23",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
@@ -168,7 +168,7 @@
     "description": "Library to speed up site by offloading third-party scripts to a web worker. In hope of reducing main thread workload, to increase TBT / TTI"
   },
   {
-    "name": "pinia &gte; 2.0.32",
+    "name": "pinia >= 2.0.32",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
@@ -203,7 +203,7 @@
     "description": "Mock adapter for axios. Hold since axios is being hold"
   },
   {
-    "name": "miragejs &gte; 0.1.47",
+    "name": "miragejs >= 0.1.47",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
@@ -217,7 +217,7 @@
     "description": "Native XMLHttpRequest api support that behaves similar to axios or other common XMLHttpRequest libraries"
   },
   {
-    "name": "@vue/test-utils &gte; 2.3.2",
+    "name": "@vue/test-utils >= 2.3.2",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
@@ -245,21 +245,21 @@
     "description": "DLS library published as individual components. It follow bit.dev paradigm"
   },
   {
-    "name": "Blue Icon &gte; 0.29.0",
+    "name": "Blue Icon >= 0.29.0",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Blue standard icons. All icons are provided through this library"
   },
   {
-    "name": "vue-i18n &gte; 9.2.2",
+    "name": "vue-i18n >= 9.2.2",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "I18n support for vue. It provides multiple translation function based on our language library"
   },
   {
-    "name": "vue-router &gte; 4.1.6",
+    "name": "vue-router >= 4.1.6",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
@@ -294,7 +294,7 @@
     "description": "Date formatter and manipulator, too heavy to use. Use date-format-lite instead"
   },
   {
-    "name": "NPM &gt; 6",
+    "name": "NPM > 6",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
@@ -315,14 +315,14 @@
     "description": "Fast nodejs runner"
   },
   {
-    "name": "Playwright &lt; 1.17.1",
+    "name": "Playwright < 1.17.1",
     "ring": "hold",
     "quadrant": "Tools",
     "isNew": "FALSE",
     "description": "Browser runner for automated testing. We use this to accomodate integration testing."
   },
   {
-    "name": "Playwright &gte; 1.17.1",
+    "name": "Playwright >= 1.17.1",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
@@ -350,7 +350,7 @@
     "description": "Hold because of inconsistent result (can't be used in webpack). We now use Rollup."
   },
   {
-    "name": "Vite.js &gte; 4.2.2",
+    "name": "Vite.js >= 4.2.2",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
@@ -371,7 +371,7 @@
     "description": "JS transpiler. It transpile modern version of JS to a targetted one, such as from ES6 to ES5. We now have larger modern support"
   },
   {
-    "name": "lighthouse &gte; 10",
+    "name": "lighthouse >= 10",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
@@ -392,14 +392,14 @@
     "description": "NPM official multi repo package manager. We can use it to build multiple project at once. It may be useful for tightly dependent libraries but managed in different projects"
   },
   {
-    "name": "@blibli/integration-test-tools &gte; 1.9.1",
+    "name": "@blibli/integration-test-tools >= 1.9.1",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
     "description": "Run integration test easily with this library. It automate docker run and micro FE' main project pull and run."
   },
   {
-    "name": "@blibli/dev-tools &gte; 0.4.9",
+    "name": "@blibli/dev-tools >= 0.4.9",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
@@ -420,7 +420,7 @@
     "description": "SASS transpiler based on C. It's deprecated now, because no update for a long time. Dart-sass or just sass is the replacement. Using node-sass is also a great hassle, as it needs to compile the binary from source every time we do 'npm install'"
   },
   {
-    "name": "dart-sass / sass &gte; 1.62.0",
+    "name": "dart-sass / sass >= 1.62.0",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "FALSE",
