@@ -316,7 +316,7 @@
   },
   {
     "name": "Resilience4J",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix"
