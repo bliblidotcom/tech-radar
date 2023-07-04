@@ -420,10 +420,87 @@
     "description": "Apache Maven is our main build tool for backend"
   },
   {
-    "name": "TODO",
+    "name": "Monolith Architecture",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Monolith Architecture"
+  },
+  {
+    "name": "Microservices Architecture",
     "ring": "adopt",
     "quadrant": "Techniques",
     "isNew": "FALSE",
-    "description": "Will be updated soon"
+    "description": "Microservices Architecture"
+  },
+  {
+    "name": "Event-Driven Architecture",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Event-Driven Architecture"
+  },
+  {
+    "name": "Reactive Programming",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Reactive Programming"
+  },
+  {
+    "name": "Non-Blocking IO",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Non-Blocking IO"
+  },
+  {
+    "name": "Dependency Injection",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Dependency Injection"
+  },
+  {
+    "name": "CQRS",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Command Query Responsibility Segregation"
+  },
+  {
+    "name": "API Gateway",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "API Gateway"
+  },
+  {
+    "name": "Backend for Frontend",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Backend for Frontend"
+  },
+  {
+    "name": "Circuit Breaker",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Circuit Breaker"
+  },
+  {
+    "name": "Client Side Discovery",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Circuit Breaker"
+  },
+  {
+    "name": "Distributed Tracing",
+    "ring": "trial",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Distributed Tracing"
   }
 ]
