@@ -502,5 +502,19 @@
     "quadrant": "Techniques",
     "isNew": "FALSE",
     "description": "Distributed Tracing"
+  },
+  {
+    "name": "Service / Facade Patterns",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Service / Facade Patterns"
+  },
+  {
+    "name": "Command Patterns",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Command Patterns"
   }
 ]
