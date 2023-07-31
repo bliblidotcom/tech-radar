@@ -238,6 +238,20 @@
     "description": "We use Go-Lang only for specified case, for new project please use Java"
   },
   {
+    "name": "JUnit 1-4",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Unit test framework for Java, please use JUnit 5 for new project"
+  },
+  {
+    "name": "JUnit 5",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Unit test framework for Java"
+  },
+  {
     "name": "Java 8",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
