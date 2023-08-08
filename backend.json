@@ -252,6 +252,13 @@
     "description": "Unit test framework for Java"
   },
   {
+    "name": "Awaitility",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "Utility for asynchronous testing"
+  },
+  {
     "name": "Java 8",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
