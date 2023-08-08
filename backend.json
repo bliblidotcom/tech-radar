@@ -245,6 +245,34 @@
     "description": "Unit test framework for Java, please use JUnit 5 for new project"
   },
   {
+    "name": "Embedded Kafka",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Kafka Utility for integration testing"
+  },
+  {
+    "name": "Embedded Mongo",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Mongo Utility for integration testing"
+  },
+  {
+    "name": "Embedded Redis",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Redis Utility for integration testing"
+  },
+  {
+    "name": "HSQLDB / H2",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Relational Database for integration testing"
+  },
+  {
     "name": "JUnit 5",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
