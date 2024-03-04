@@ -112,6 +112,13 @@
     "description": "Simple test runner. It's proven to be fast to code and run. Moreover, it's very easy to scale"
   },
   {
+    "name": "Jest 23",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Simple test runner. It's proven to be fast to code and run. Moreover, it's very easy to scale"
+  },
+  {
     "name": "Vitest 0.23",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
@@ -315,7 +322,7 @@
     "description": "Fast nodejs runner"
   },
   {
-    "name": "Playwright 1.17.1",
+    "name": "Playwright 1.38.1",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
@@ -385,7 +392,7 @@
     "description": "NPM official multi repo package manager. We can use it to build multiple project at once. It may be useful for tightly dependent libraries but managed in different projects"
   },
   {
-    "name": "@blibli/integration-test-tools 1.9.1",
+    "name": "@blibli/integration-test-tools 1.9.12",
     "ring": "adopt",
     "quadrant": "Tools",
     "isNew": "TRUE",
