@@ -504,6 +504,20 @@
     "description": "Using server side rendering to render vue pages"
   },
   {
+    "name": "Visual Studio Code",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Visual Studio code for Web IDE"
+  },
+  {
+    "name": "Webstorm",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Webstorm for Web IDE"
+  },
+  {
     "name": "Micro FE",
     "ring": "adopt",
     "quadrant": "Techniques",
