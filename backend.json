@@ -197,16 +197,16 @@
   },
   {
     "name": "Spring Boot 2.x",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
     "description": "Spring Boot is our main framework for backend"
   },
   {
     "name": "Spring Boot 3.x",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Spring Boot is our main framework for backend"
   },
   {
@@ -231,7 +231,7 @@
     "description": "Java 21 is latest LTS for Java, we still assess this version"
   },
   {
-    "name": "GrallVM Java 17",
+    "name": "GrallVM Java 21",
     "ring": "assess",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
@@ -386,10 +386,10 @@
   },
   {
     "name": "MapStruct",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
-    "isNew": "FALSE",
-    "description": "We still assess this library for object mapper, so we don't need to use Java Reflection anymore"
+    "isNew": "TRUE",
+    "description": "Object Mapper Library"
   },
   {
     "name": "Log4J",
