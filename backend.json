@@ -518,6 +518,13 @@
     "description": "Non-Blocking IO"
   },
   {
+    "name": "Virtual Thread",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Virtual Thread"
+  },
+  {
     "name": "Dependency Injection",
     "ring": "adopt",
     "quadrant": "Techniques",
