@@ -183,17 +183,17 @@
   },
   {
     "name": "Apache Tomcat",
-    "ring": "hold",
+    "ring": "adopt",
     "quadrant": "Platforms",
     "isNew": "FALSE",
-    "description": "For new project please use Netty"
+    "description": "Java Web Server"
   },
   {
     "name": "Java 11",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
-    "description": "Java is our main programming language for backend"
+    "description": "Java Programming Langauge"
   },
   {
     "name": "Spring Boot 2.x",
@@ -218,10 +218,17 @@
   },
   {
     "name": "Java 17",
-    "ring": "assess",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java 17 is latest LTS for Java, we still assess this version"
+  },
+  {
+    "name": "Java 21",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
-    "description": "Java 17 is latest LTS for Java, we still assess this version"
+    "description": "Java 21 is latest LTS for Java, we still assess this version"
   },
   {
     "name": "GrallVM Java 17",
