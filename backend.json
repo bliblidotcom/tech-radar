@@ -245,6 +245,13 @@
     "description": "Unit test framework for Java, please use JUnit 5 for new project"
   },
   {
+    "name": "AssertJ",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "fluent assertions java library"
+  },
+  {
     "name": "Embedded Kafka",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
