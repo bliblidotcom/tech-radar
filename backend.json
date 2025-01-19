@@ -231,11 +231,11 @@
     "description": "Java 21 is latest LTS for Java, we still assess this version"
   },
   {
-    "name": "GrallVM Java 21",
-    "ring": "assess",
+    "name": "GraalVM Java 21",
+    "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
-    "description": "We still assess Grall VM for Spring Boot Native"
+    "description": "Grall VM for Spring Boot Native"
   },
   {
     "name": "Go-Lang",
