@@ -1,61 +1,415 @@
 [
-{"name": "pip","ring":"adopt","quadrant":" Tools", "isNew": "FALSE","description": "Package manager for Python that allows to install, manage, and distribute Python packages (libraries or software)"},
-{"name": "gcloud","ring":"adopt","quadrant":" Tools", "isNew": "FALSE","description": "Google Cloud SDK  for interacting with various Google Cloud services"},
-{"name": "maven","ring":"adopt","quadrant":" Tools", "isNew": "FALSE","description": "build automation and project management tool used primarily for Java-based applications."},
-{"name": "vite.js","ring":"adopt","quadrant":" Tools", "isNew": "FALSE","description": "build tool and development server designed to enhance the frontend development "},
-{"name": "zeta SQL 0.5.3","ring":"hold","quadrant":" Tools", "isNew": "FALSE","description": "SQL query engine to parse, analyze, and execute SQL queries"},
-{"name": "microsoft power automate","ring":"adopt","quadrant":" Tools", "isNew": "FALSE","description": "cloud-based service that helps automate workflows "},
-{"name": "Google BigQuery","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "platform that use for our data-warehouse"},
-{"name": "Looker Studio","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "data visualization to present insights through dashboards"},
-{"name": "Postgres 1.13","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "relational database management system"},
-{"name": "Vertex Ai","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "services for developing, deploying, and managing machine learning (ML) models"},
-{"name": "Google Cloud Storage","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "platform that use for our datalake"},
-{"name": "Debezium 2.4","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "platform that provides change data capture capabilities"},
-{"name": "Apache Airflow 2.10.3","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "used to programmatically schedule, and monitor workflows to manage the data pipelines"},
-{"name": "Apache Airflow 3.x","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "upcoming Airflow version"},
-{"name": "Prefect 2.14.2","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "workflow orchestration platform"},
-{"name": "Redis","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "in-memory data structure store that used as a database"},
-{"name": "Rancher 1.11.0","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "container management platform"},
-{"name": "Kafka","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "used for real-time data streaming"},
-{"name": "Docker","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "to build, share, and run container applications"},
-{"name": "Vault","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "secures, stores, and controls access to tokens, passwords. keys, and other secrets "},
-{"name": "Google Kubernetes Engine","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "automates operational tasks of container management "},
-{"name": "Jenkins 2.414.3","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "automate development and deployment related "},
-{"name": "Arango DB 2.0.1","ring":"adopt","quadrant":" Platforms", "isNew": "FALSE","description": "multi-model database for high-performance applications"},
-{"name": "Dataflow","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "streaming analytics service"},
-{"name": "Pub-sub","ring":"hold","quadrant":" Platforms", "isNew": "FALSE","description": "real time messaging"},
-{"name": "python 3.10","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "programming language"},
-{"name": "java 21","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Java programming Language"},
-{"name": "java 11","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Java programming Language"},
-{"name": "django 3.2","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python web framework "},
-{"name": "vue.js 2.x","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "JavaScript framework for building user interfaces"},
-{"name": "vue.js 3.x","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "JavaScript framework for building user interfaces"},
-{"name": "pytest 7.20","ring":"assess","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python testing framework"},
-{"name": "springboot 2.x","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Java framework"},
-{"name": "springboot 3.x","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Java framework"},
-{"name": "data build tool (dbt) 1.7.7","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "command-line tool that helps analysts and engineers transform raw data into clean, structured, and analytical datasets."},
-{"name": "snappy 0.6.0","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "data compression"},
-{"name": "spark 3.5.0","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "programming language to data processing"},
-{"name": "pandas 1.2.4","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python library used for data manipulation and analysis"},
-{"name": "connector x 0.3.3","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python library used to quickly and efficiently load data from external databases "},
-{"name": "avro 1.11.2","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "format data in a compact binary format"},
-{"name": "json","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "format data in structured format"},
-{"name": "Apache parquet","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "columnar storage format"},
-{"name": "office 365","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "SharePoint document library "},
-{"name": "great expectations 0.18.19","ring":"hold","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python library to facilitate data validation and ensure data quality throughout the data pipeline"},
-{"name": "duck DB 1.1.3","ring":"assess","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "open-source column-oriented relational database management system"},
-{"name": "numpy 1.20.3","ring":"adopt","quadrant":" Languages and Frameworks", "isNew": "FALSE","description": "Python library that provides a multidimensional array object"},
-{"name": "one big table (OBT)","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "data warehousing technique where all data is consolidated into a single, denormalized table."},
-{"name": "slowly changing dimesions 2","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "data warehousing technique used to manage and track historical changes in dimensional data over time"},
-{"name": "write truncate","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "method to completely refresh all data in a table"},
-{"name": "write append","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "method is used to add delta data in a table"},
-{"name": "update or insert (upsert)","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "update or insert method to rerfresh data in table"},
-{"name": "incremental load log based","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "mechanisms to identify and load only the records that have been added or modified"},
-{"name": "deduplication","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "process of removing duplicate data from a table to ensure data accuracy, consistency, and efficiency."},
-{"name": "access policy","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "defines who can access specific data and what actions they are allowed to perform."},
-{"name": "table partition ","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "partition the table by a column, typically a date or timestamp column so it will reduce the amount of data scanned during queries"},
-{"name": "table cluster","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "way to organize table data by storing similar data together, making filtering and aggregation faster"},
-{"name": "datalake","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "centralized storage system that holds raw, structured, semi-structured, and unstructured data"},
-{"name": "datawarehouse","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "centralized system designed for storing, processing, and analyzing structured data"},
-{"name": "change data capture","ring":"adopt","quadrant":"Techniques", "isNew": "FALSE","description": "used to capture and track changes made in data"}
+  {
+    "name": "pip",
+    "ring": "adopt",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "Package manager for Python that allows to install, manage, and distribute Python packages (libraries or software)"
+  },
+  {
+    "name": "gcloud",
+    "ring": "adopt",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "Google Cloud SDK  for interacting with various Google Cloud services"
+  },
+  {
+    "name": "maven",
+    "ring": "adopt",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "build automation and project management tool used primarily for Java-based applications."
+  },
+  {
+    "name": "vite.js",
+    "ring": "adopt",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "build tool and development server designed to enhance the frontend development "
+  },
+  {
+    "name": "zeta SQL 0.5.3",
+    "ring": "hold",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "SQL query engine to parse, analyze, and execute SQL queries"
+  },
+  {
+    "name": "microsoft power automate",
+    "ring": "adopt",
+    "quadrant": " Tools",
+    "isNew": "FALSE",
+    "description": "cloud-based service that helps automate workflows "
+  },
+  {
+    "name": "Google BigQuery",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "platform that use for our data-warehouse"
+  },
+  {
+    "name": "Looker Studio",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "data visualization to present insights through dashboards"
+  },
+  {
+    "name": "Postgres 1.13",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "relational database management system"
+  },
+  {
+    "name": "Vertex Ai",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "services for developing, deploying, and managing machine learning (ML) models"
+  },
+  {
+    "name": "Google Cloud Storage",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "platform that use for our datalake"
+  },
+  {
+    "name": "Debezium 2.4",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "platform that provides change data capture capabilities"
+  },
+  {
+    "name": "Apache Airflow 2.10.3",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "used to programmatically schedule, and monitor workflows to manage the data pipelines"
+  },
+  {
+    "name": "Apache Airflow 3.x",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "upcoming Airflow version"
+  },
+  {
+    "name": "Prefect 2.14.2",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "workflow orchestration platform"
+  },
+  {
+    "name": "Redis",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "in-memory data structure store that used as a database"
+  },
+  {
+    "name": "Rancher 1.11.0",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "container management platform"
+  },
+  {
+    "name": "Kafka",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "used for real-time data streaming"
+  },
+  {
+    "name": "Docker",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "to build, share, and run container applications"
+  },
+  {
+    "name": "Vault",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "secures, stores, and controls access to tokens, passwords. keys, and other secrets "
+  },
+  {
+    "name": "Google Kubernetes Engine",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "automates operational tasks of container management "
+  },
+  {
+    "name": "Jenkins 2.414.3",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "automate development and deployment related "
+  },
+  {
+    "name": "Arango DB 2.0.1",
+    "ring": "adopt",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "multi-model database for high-performance applications"
+  },
+  {
+    "name": "Dataflow",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "streaming analytics service"
+  },
+  {
+    "name": "Pub-sub",
+    "ring": "hold",
+    "quadrant": " Platforms",
+    "isNew": "FALSE",
+    "description": "real time messaging"
+  },
+  {
+    "name": "python 3.10",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "programming language"
+  },
+  {
+    "name": "java 21",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java programming Language"
+  },
+  {
+    "name": "java 11",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java programming Language"
+  },
+  {
+    "name": "django 3.2",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python web framework "
+  },
+  {
+    "name": "vue.js 2.x",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "JavaScript framework for building user interfaces"
+  },
+  {
+    "name": "vue.js 3.x",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "JavaScript framework for building user interfaces"
+  },
+  {
+    "name": "pytest 7.20",
+    "ring": "assess",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python testing framework"
+  },
+  {
+    "name": "springboot 2.x",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java framework"
+  },
+  {
+    "name": "springboot 3.x",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Java framework"
+  },
+  {
+    "name": "data build tool (dbt) 1.7.7",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "command-line tool that helps analysts and engineers transform raw data into clean, structured, and analytical datasets."
+  },
+  {
+    "name": "snappy 0.6.0",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "data compression"
+  },
+  {
+    "name": "spark 3.5.0",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "programming language to data processing"
+  },
+  {
+    "name": "pandas 1.2.4",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python library used for data manipulation and analysis"
+  },
+  {
+    "name": "connector x 0.3.3",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python library used to quickly and efficiently load data from external databases "
+  },
+  {
+    "name": "avro 1.11.2",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "format data in a compact binary format"
+  },
+  {
+    "name": "json",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "format data in structured format"
+  },
+  {
+    "name": "Apache parquet",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "columnar storage format"
+  },
+  {
+    "name": "office 365",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "SharePoint document library "
+  },
+  {
+    "name": "great expectations 0.18.19",
+    "ring": "hold",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python library to facilitate data validation and ensure data quality throughout the data pipeline"
+  },
+  {
+    "name": "duck DB 1.1.3",
+    "ring": "assess",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "open-source column-oriented relational database management system"
+  },
+  {
+    "name": "numpy 1.20.3",
+    "ring": "adopt",
+    "quadrant": " Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python library that provides a multidimensional array object"
+  },
+  {
+    "name": "one big table (OBT)",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "data warehousing technique where all data is consolidated into a single, denormalized table."
+  },
+  {
+    "name": "slowly changing dimesions 2",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "data warehousing technique used to manage and track historical changes in dimensional data over time"
+  },
+  {
+    "name": "write truncate",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "method to completely refresh all data in a table"
+  },
+  {
+    "name": "write append",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "method is used to add delta data in a table"
+  },
+  {
+    "name": "update or insert (upsert)",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "update or insert method to rerfresh data in table"
+  },
+  {
+    "name": "incremental load log based",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "mechanisms to identify and load only the records that have been added or modified"
+  },
+  {
+    "name": "deduplication",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "process of removing duplicate data from a table to ensure data accuracy, consistency, and efficiency."
+  },
+  {
+    "name": "access policy",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "defines who can access specific data and what actions they are allowed to perform."
+  },
+  {
+    "name": "table partition ",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "partition the table by a column, typically a date or timestamp column so it will reduce the amount of data scanned during queries"
+  },
+  {
+    "name": "table cluster",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "way to organize table data by storing similar data together, making filtering and aggregation faster"
+  },
+  {
+    "name": "datalake",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "centralized storage system that holds raw, structured, semi-structured, and unstructured data"
+  },
+  {
+    "name": "datawarehouse",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "centralized system designed for storing, processing, and analyzing structured data"
+  },
+  {
+    "name": "change data capture",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "used to capture and track changes made in data"
+  }
 ]
