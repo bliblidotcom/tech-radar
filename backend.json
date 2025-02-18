@@ -218,24 +218,24 @@
   },
   {
     "name": "Java 17",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
-    "description": "Java 17 is latest LTS for Java, we still assess this version"
+    "description": "Java 17"
   },
   {
     "name": "Java 21",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
-    "description": "Java 21 is latest LTS for Java, we still assess this version"
+    "description": "Java 21 is latest LTS for Java"
   },
   {
     "name": "GraalVM Java 21",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
-    "description": "Grall VM for Spring Boot Native"
+    "description": "GraalVM for Spring Boot Native"
   },
   {
     "name": "Go-Lang",
