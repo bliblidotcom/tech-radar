@@ -70,25 +70,11 @@
     "description": "Next version of vue js. Blue 3.0 (DLS) has been published with Vue 3 support"
   },
   {
-    "name": "Nodejs 20",
+    "name": "Nodejs",
     "ring": "adopt",
     "quadrant": "Languages and Frameworks",
     "isNew": "TRUE",
-    "description": "JS Engine, LTS"
-  },
-  {
-    "name": "Nodejs 22",
-    "ring": "adopt",
-    "quadrant": "Languages and Frameworks",
-    "isNew": "TRUE",
-    "description": "JS Engine, latest LTS"
-  },
-  {
-    "name": "Nodejs $lt 20",
-    "ring": "hold",
-    "quadrant": "Languages and Frameworks",
-    "isNew": "TRUE",
-    "description": "Older JS Engine. We should replace it with newer version."
+    "description": "JS Engine, 2 latest LTS. Always use the latest version in your project"
   },
   {
     "name": "React",
@@ -530,6 +516,27 @@
     "quadrant": "Platforms",
     "isNew": "FALSE",
     "description": "Webstorm for Web IDE"
+  },
+  {
+    "name": "Cursor AI",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "AI-based IDE"
+  },
+  {
+    "name": "Jetbrains AI",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "AI assistant for Jetbrains IDE"
+  },
+  {
+    "name": "Claude AI",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "LLM for coding"
   },
   {
     "name": "Micro FE",
